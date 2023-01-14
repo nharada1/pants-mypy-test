@@ -1,0 +1,15 @@
+[GLOBAL]
+pants_version = "2.14.0"
+
+backend_packages.add = [
+  "pants.backend.python",
+  "pants.backend.python.typecheck.mypy",
+]
+
+[source]
+root_patterns = [
+  '/src',
+]
+
+[anonymous-telemetry]
+enabled = false
